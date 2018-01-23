@@ -1,0 +1,12 @@
+tasks.withType(Javadoc).all {
+    enabled = false
+}
+
+publish {
+    userOrg = "yusukeiwaki"
+    groupId = "io.github.yusukeiwaki.utility"
+    artifactId = "sharedpreferences-property"
+    publishVersion = "0.0.1"
+    desc = "The thinnest SharedPreferences"
+    website = "https://github.com/YusukeIwaki/SharedPrefProperty"
+}
